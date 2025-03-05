@@ -39,7 +39,7 @@ This project is a web research tool powered by a Large Language Model (LLM). It 
 1.  **Clone the Repository:**
 
     ```bash
-    git clone [https://github.com/yourusername/web-research-assistant.git](https://github.com/yourusername/web-research-assistant.git)
+    git clone [https://github.com/genius-harry/web-research-assistant.git](https://github.com/yourusername/web-research-assistant.git)
     cd web-research-assistant
     ```
 
