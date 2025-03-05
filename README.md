@@ -1,4 +1,4 @@
-# Web Research Assistant
+# Simulating Deep research
 
 This project is a web research tool powered by a Large Language Model (LLM). It enables users to input any research question, then automates web searching, content scraping, and summarization to provide a detailed, comprehensive answer. Built with Python, it integrates APIs such as OpenAI, SerpAPI, and FireCrawl for efficient operation.
 
