@@ -12,7 +12,7 @@ This project is a web research tool powered by a Large Language Model (LLM). It 
 
 ## Project Structure
 ```
-📁 web-research-assistant/
+📁 simulating-deep-research/
 │
 ├── main.py            # Main script to run the application
 ├── api_keys.py       # Loads API keys from environment variables
@@ -39,8 +39,8 @@ This project is a web research tool powered by a Large Language Model (LLM). It 
 1.  **Clone the Repository:**
 
     ```bash
-    git clone [https://github.com/genius-harry/web-research-assistant.git](https://github.com/yourusername/web-research-assistant.git)
-    cd web-research-assistant
+    git clone [https://github.com/genius-harry/simulating-deep-research.git](https://github.com/yourusername/simulating-deep-research.git)
+    cd simulating-deep-research
     ```
 
 2.  **Install Dependencies:**
