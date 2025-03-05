@@ -1,3 +1,22 @@
+<!-- Badges -->
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/genius-harry/simulating-deep-research)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+<!-- Table of Contents -->
+## Table of Contents
+- [Simulating Deep research](#simulating-deep-research)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Troubleshooting](#troubleshooting)
+- [Roadmap](#roadmap)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+- [License](#license)
+- [Notes](#notes)
+  
 # Simulating Deep research
 
 This project is a web research tool powered by a Large Language Model (LLM). It enables users to input any research question, then automates web searching, content scraping, and summarization to provide a detailed, comprehensive answer. Built with Python, it integrates APIs such as OpenAI, SerpAPI, and FireCrawl for efficient operation.
@@ -39,7 +58,7 @@ This project is a web research tool powered by a Large Language Model (LLM). It 
 1.  **Clone the Repository:**
 
     ```bash
-    git clone [https://github.com/genius-harry/simulating-deep-research.git](https://github.com/yourusername/simulating-deep-research.git)
+    git clone [https://github.com/genius-harry/simulating-deep-research.git](https://github.com/genius-harry/simulating-deep-research.git)
     cd simulating-deep-research
     ```
 
@@ -103,6 +122,27 @@ This project is a web research tool powered by a Large Language Model (LLM). It 
      - [https://example.com/source2](https://example.com/source2)
     ```
 
+<!-- New note for virtual environments -->
+Before installing dependencies, consider using a virtual environment:
+```bash
+python -m venv env
+source env/bin/activate  # On Windows use: env\Scripts\activate
+```
+
+## Troubleshooting
+
+If you encounter issues, check the following:
+- Verify that your API keys are correctly set in the .env file.
+- Ensure your Python version is 3.11 or higher.
+- Check your network connection for API access issues.
+
+## Roadmap
+
+Future enhancements:
+- Improve error handling and logging.
+- Add more configurable options for iterations.
+- Enhance the UI/UX for console interactions.
+
 ## How It Works
 
 -   **Search Term Creation:** The LLM crafts relevant search phrases from the user’s question.
@@ -131,7 +171,7 @@ See `requirements.txt` for details:
 
 ## License
 
-This project is unlicensed. Use and adapt it freely.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Notes
 
