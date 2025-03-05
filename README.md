@@ -11,7 +11,8 @@ This project is a web research tool powered by a Large Language Model (LLM). It 
 -   **Modular Code:** Organized into separate Python files for clarity and maintainability.
 
 ## Project Structure
-web-research-assistant/
+```
+📁 web-research-assistant/
 │
 ├── main.py            # Main script to run the application
 ├── api_keys.py       # Loads API keys from environment variables
@@ -23,6 +24,7 @@ web-research-assistant/
 ├── .gitignore       # Excludes sensitive files from Git
 ├── requirements.txt   # Lists Python dependencies
 └── README.md        # This file
+```
 
 ## Prerequisites
 
